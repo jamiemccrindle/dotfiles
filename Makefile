@@ -15,8 +15,7 @@ all:
         ln -s $(CURDIR)/gvimrc ~/.gvimrc
         mv ~/.gitignore ~/.gitignore.bak
         ln -s $(CURDIR)/gitignore ~/.gitignore
-        git submodule init
-        git submodule update
+	git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
 clean:
         rm -f ~/.git-prompt.sh ~/.git-completion.sh ~/.gitconfig ~/.bash_profile ~/.inputrc ~/.vimrc ~/.gvimrc ~/.gitignore
