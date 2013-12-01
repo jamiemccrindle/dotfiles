@@ -1,0 +1,17 @@
+# enables vi keybindings in the shell
+set editing-mode vi 
+
+# complete things that have been typed in the wrong case:
+set completion-ignore-case on
+
+# press tab only once to show completion options
+set show-all-if-ambiguous on
+set show-all-if-unmodified on
+
+# when listing possible file completions, put / after directory names and * after programs:
+set visible-stats on
+
+# Bind the up arrow to history search, instead of history step
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+

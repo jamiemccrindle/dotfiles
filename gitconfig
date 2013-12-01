@@ -1,0 +1,17 @@
+[core]
+	excludesfile = /Users/jamie/.gitignore_global
+[user]
+	name = Jamie McCrindle
+	email = jamiemccrindle@gmail.com
+[push]
+	default = simple
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[alias]
+    l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+    d = diff --color --ignore-space-at-eol --ignore-space-change --ignore-all-space
+    dc = diff --color --ignore-space-at-eol --ignore-space-change --ignore-all-space --cached

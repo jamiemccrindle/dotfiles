@@ -1,0 +1,6 @@
+*.swp
+*.iml
+.idea
+.rakeTasks
+.DS_Store
+.*\#
