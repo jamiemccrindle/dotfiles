@@ -20,7 +20,7 @@ Bundle 'surround.vim'
 " Autocomplete braces, quotes, etc
 Bundle 'delimitMate.vim'
 " autocompletion
-Bundle 'Valloric/YouCompleteMe'
+" Bundle 'Valloric/YouCompleteMe'
 " snippets
 Bundle 'snipMate'
 " comment and uncomment code
@@ -38,6 +38,7 @@ Bundle 'Markdown'
 Bundle 'vim-coffee-script'
 Bundle 'lunaru/vim-less'
 Bundle 'leafgarland/typescript-vim'
+Bundle 'derekwyatt/vim-scala'
 
 " Settings
 
@@ -103,7 +104,7 @@ vmap > >gv
 " Airline
 let g:airline_theme='dark'
 let g:airline_enable_fugitive=1
-let g:airline_powerline_fonts=1
+let g:airline_powerline_fonts=0
 
 " Nerdtree
 let NERDTreeShowBookmarks=1

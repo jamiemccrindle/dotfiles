@@ -15,3 +15,5 @@
     l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
     d = diff --color --ignore-space-at-eol --ignore-space-change --ignore-all-space
     dc = diff --color --ignore-space-at-eol --ignore-space-change --ignore-all-space --cached
+[color]
+      diff = auto
