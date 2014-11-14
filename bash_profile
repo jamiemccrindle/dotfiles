@@ -50,5 +50,3 @@ RESET='\[\033[0m\]'
 
 # set prompt to indicate current git branch if available
 PS1="[\d \t] ${GREEN}\w${RESET} ${ORANGE}"'$(__git_ps1 "(%s)")'"${RESET}\n> "
-
-
